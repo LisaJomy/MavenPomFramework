@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started --> verifyLoginPageTitleTest
+]]>
+    </line>
+    <line>
+      <![CDATA[Login page Title isHubSpot Login]]>
+    </line>
+    <line>
+      <![CDATA[Test ended-->VerifyLoginPageTitleTest]]>
+    </line>
+  </reporter-output>
+  <suite name="Hub Spot Sanity Test Suite" duration-ms="54649" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:41:14 EST">
+    <groups>
+    </groups>
+    <test name="Hub spot sanity Test" duration-ms="54649" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:41:14 EST">
+      <class name="com.qa.Hubspot.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="16291" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:40:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifyLoginPageTitleTest" duration-ms="1041" started-at="2019-12-06T18:40:36 EST" finished-at="2019-12-06T18:40:37 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started --> verifyLoginPageTitleTest
+]]>
+            </line>
+            <line>
+              <![CDATA[Login page Title isHubSpot Login]]>
+            </line>
+            <line>
+              <![CDATA[Test ended-->VerifyLoginPageTitleTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="964" started-at="2019-12-06T18:40:37 EST" finished-at="2019-12-06T18:40:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="14812" started-at="2019-12-06T18:40:38 EST" finished-at="2019-12-06T18:40:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySighUpLink()[pri:2, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifySighUpLink" duration-ms="794" started-at="2019-12-06T18:40:53 EST" finished-at="2019-12-06T18:40:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySighUpLink -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="995" started-at="2019-12-06T18:40:54 EST" finished-at="2019-12-06T18:40:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="14742" started-at="2019-12-06T18:40:55 EST" finished-at="2019-12-06T18:41:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:3, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifyLoginPage" duration-ms="3560" started-at="2019-12-06T18:41:10 EST" finished-at="2019-12-06T18:41:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="995" started-at="2019-12-06T18:41:13 EST" finished-at="2019-12-06T18:41:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.Hubspot.testcases.LoginPageTest -->
+    </test> <!-- Hub spot sanity Test -->
+  </suite> <!-- Hub Spot Sanity Test Suite -->
+</testng-results>
