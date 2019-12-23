@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
   <reporter-output>
     <line>
       <![CDATA[Test started --> verifyLoginPageTitleTest
@@ -12,16 +12,16 @@
       <![CDATA[Test ended-->VerifyLoginPageTitleTest]]>
     </line>
   </reporter-output>
-  <suite name="Hub Spot Sanity Test Suite" duration-ms="54649" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:41:14 EST">
+  <suite name="Hub spot Test Suite" duration-ms="153381" started-at="2019-12-22T13:51:06 EST" finished-at="2019-12-22T13:53:39 EST">
     <groups>
     </groups>
-    <test name="Hub spot sanity Test" duration-ms="54649" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:41:14 EST">
+    <test name="hub spot sanity Test" duration-ms="153381" started-at="2019-12-22T13:51:06 EST" finished-at="2019-12-22T13:53:39 EST">
       <class name="com.qa.Hubspot.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="16291" started-at="2019-12-06T18:40:20 EST" finished-at="2019-12-06T18:40:36 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="setUp" is-config="true" duration-ms="25340" started-at="2019-12-22T13:51:06 EST" finished-at="2019-12-22T13:51:31 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifyLoginPageTitleTest" duration-ms="1041" started-at="2019-12-06T18:40:36 EST" finished-at="2019-12-06T18:40:37 EST">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="verifyLoginPageTitleTest" duration-ms="2358" started-at="2019-12-22T13:51:32 EST" finished-at="2019-12-22T13:51:35 EST">
           <reporter-output>
             <line>
               <![CDATA[Test started --> verifyLoginPageTitleTest
@@ -35,35 +35,169 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="964" started-at="2019-12-06T18:40:37 EST" finished-at="2019-12-06T18:40:38 EST">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="quitBrowser" is-config="true" duration-ms="1923" started-at="2019-12-22T13:51:35 EST" finished-at="2019-12-22T13:51:37 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="14812" started-at="2019-12-06T18:40:38 EST" finished-at="2019-12-06T18:40:53 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="setUp" is-config="true" duration-ms="15822" started-at="2019-12-22T13:51:37 EST" finished-at="2019-12-22T13:51:53 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySighUpLink()[pri:2, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifySighUpLink" duration-ms="794" started-at="2019-12-06T18:40:53 EST" finished-at="2019-12-06T18:40:54 EST">
+        <test-method status="PASS" signature="verifySighUpLink()[pri:2, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="verifySighUpLink" duration-ms="2625" started-at="2019-12-22T13:51:53 EST" finished-at="2019-12-22T13:51:55 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySighUpLink -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="995" started-at="2019-12-06T18:40:54 EST" finished-at="2019-12-06T18:40:55 EST">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="quitBrowser" is-config="true" duration-ms="946" started-at="2019-12-22T13:51:55 EST" finished-at="2019-12-22T13:51:56 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="setUp" is-config="true" duration-ms="14742" started-at="2019-12-06T18:40:55 EST" finished-at="2019-12-06T18:41:10 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="setUp" is-config="true" duration-ms="15574" started-at="2019-12-22T13:51:56 EST" finished-at="2019-12-22T13:52:12 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPage()[pri:3, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="verifyLoginPage" duration-ms="3560" started-at="2019-12-06T18:41:10 EST" finished-at="2019-12-06T18:41:13 EST">
+        <test-method status="FAIL" signature="verifyLoginPage()[pri:3, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="verifyLoginPage" duration-ms="6804" started-at="2019-12-22T13:52:12 EST" finished-at="2019-12-22T13:52:19 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPage(LoginPageTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="995" started-at="2019-12-06T18:41:13 EST" finished-at="2019-12-06T18:41:14 EST">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.LoginPageTest@49c386c8]" name="quitBrowser" is-config="true" duration-ms="947" started-at="2019-12-22T13:52:19 EST" finished-at="2019-12-22T13:52:20 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.qa.Hubspot.testcases.LoginPageTest -->
-    </test> <!-- Hub spot sanity Test -->
-  </suite> <!-- Hub Spot Sanity Test Suite -->
+      <class name="com.qa.Hubspot.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="setUp" is-config="true" duration-ms="18326" started-at="2019-12-22T13:52:20 EST" finished-at="2019-12-22T13:52:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HeaderTextExixtsTest()[pri:1, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="HeaderTextExixtsTest" duration-ms="276" started-at="2019-12-22T13:52:38 EST" finished-at="2019-12-22T13:52:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderTextExixtsTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="1021" started-at="2019-12-22T13:52:38 EST" finished-at="2019-12-22T13:52:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="setUp" is-config="true" duration-ms="18417" started-at="2019-12-22T13:52:39 EST" finished-at="2019-12-22T13:52:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="verifyLoggedInUserTest" duration-ms="192" started-at="2019-12-22T13:52:58 EST" finished-at="2019-12-22T13:52:58 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.qa.Hubspot.testcases.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="931" started-at="2019-12-22T13:52:58 EST" finished-at="2019-12-22T13:52:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="setUp" is-config="true" duration-ms="19340" started-at="2019-12-22T13:52:59 EST" finished-at="2019-12-22T13:53:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageLogo()[pri:3, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="verifyHomePageLogo" duration-ms="81" started-at="2019-12-22T13:53:18 EST" finished-at="2019-12-22T13:53:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogo -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="1401" started-at="2019-12-22T13:53:18 EST" finished-at="2019-12-22T13:53:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="setUp" is-config="true" duration-ms="18538" started-at="2019-12-22T13:53:20 EST" finished-at="2019-12-22T13:53:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:4, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="verifyHomePageTitle" duration-ms="12" started-at="2019-12-22T13:53:38 EST" finished-at="2019-12-22T13:53:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.Hubspot.testcases.HomePageTest@56528192]" name="quitBrowser" is-config="true" duration-ms="955" started-at="2019-12-22T13:53:38 EST" finished-at="2019-12-22T13:53:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.Hubspot.testcases.HomePageTest -->
+    </test> <!-- hub spot sanity Test -->
+  </suite> <!-- Hub spot Test Suite -->
 </testng-results>

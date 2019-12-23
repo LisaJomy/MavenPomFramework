@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Hub spot sanity Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 06 18:40:20 EST 2019</td>
+<td>Started on:</td><td>Sat Dec 21 18:59:09 EST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>54 seconds (54649 ms)</td>
+<tr><td>Total time:</td><td>153 seconds (153629 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,100 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.Hubspot.testcases.HomePageTest.verifyLoggedInUserTest()'><b>verifyLoggedInUserTest</b><br>Test class: com.qa.Hubspot.testcases.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.qa.Hubspot.testcases.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:62)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1611964917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1611964917'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.qa.Hubspot.testcases.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.Hubspot.testcases.HomePageTest@6eae3730</td></tr>
+<tr>
+<td title='com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.qa.Hubspot.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPage(LoginPageTest.java:76)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1438855257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1438855257'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPage(LoginPageTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.Hubspot.testcases.LoginPageTest@eaa07bb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,16 +169,26 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.qa.Hubspot.testcases.LoginPageTest</td>
+<td title='com.qa.Hubspot.testcases.HomePageTest.HeaderTextExixtsTest()'><b>HeaderTextExixtsTest</b><br>Test class: com.qa.Hubspot.testcases.HomePageTest</td>
 <td></td>
-<td>3</td>
-<td>com.qa.Hubspot.testcases.LoginPageTest@56528192</td></tr>
+<td>0</td>
+<td>com.qa.Hubspot.testcases.HomePageTest@6eae3730</td></tr>
+<tr>
+<td title='com.qa.Hubspot.testcases.HomePageTest.verifyHomePageLogo()'><b>verifyHomePageLogo</b><br>Test class: com.qa.Hubspot.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.Hubspot.testcases.HomePageTest@6eae3730</td></tr>
+<tr>
+<td title='com.qa.Hubspot.testcases.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.qa.Hubspot.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.Hubspot.testcases.HomePageTest@6eae3730</td></tr>
 <tr>
 <td title='com.qa.Hubspot.testcases.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.qa.Hubspot.testcases.LoginPageTest<br/>
-<a href="#Output-54960993" onClick='toggleBox("Output-54960993", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-458059519" onClick='toggleBox("Output-458059519", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-54960993" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-54960993">
+<a href="#Output-458059519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-458059519">
 Test started --> verifyLoginPageTitleTest
 <br/>
 Login page Title isHubSpot Login<br/>
@@ -92,13 +196,13 @@ Test ended-->VerifyLoginPageTitleTest<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>com.qa.Hubspot.testcases.LoginPageTest@56528192</td></tr>
+<td>2</td>
+<td>com.qa.Hubspot.testcases.LoginPageTest@eaa07bb</td></tr>
 <tr>
 <td title='com.qa.Hubspot.testcases.LoginPageTest.verifySighUpLink()'><b>verifySighUpLink</b><br>Test class: com.qa.Hubspot.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.Hubspot.testcases.LoginPageTest@56528192</td></tr>
+<td>com.qa.Hubspot.testcases.LoginPageTest@eaa07bb</td></tr>
 </table><p>
 </body>
 </html>
